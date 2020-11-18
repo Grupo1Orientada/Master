@@ -5,19 +5,17 @@
  */
 package tareadegrupo;
 
-import Persona.Persona;
-
 /**
  *
  * @author CINDY GONZALEZ
  */
-public class Doctor extends Persona{
-     public Doctor() {
-        
-        setNombre("CINDY GONZALEZ");
-        setEdad(23);
-        setTrabajo("Hospital Caribe");
-    
-}
+public class TareaDeGrupo {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
     
 }
