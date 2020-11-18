@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package tareadegrupo;
-
+import Persona.Persona;
 /**
  *
  * @author CINDY GONZALEZ
@@ -15,7 +15,11 @@ public class TareaDeGrupo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Doctor doctor=new Doctor();
+       Deportista deportista =new Deportista();
+       
+       doctor.MostrarInformacion();
+       deportista.MostrarInformacion();
     }
     
 }
